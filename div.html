@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Division</title>
+       <link rel="stylesheet" href="design.css">
+
+               
+<script>
+      function add(){
+          var num11 = parseFloat(document.getElementById('num1').value);
+          var num22 = parseFloat(document.getElementById('num2').value);
+        
+           //  var result =parseFloat(num11)+parseFloat(num22);
+             
+           document.getElementById('print').value = num11/num22;
+         
+          
+     }
+</script>  
+        
+    </head>
+    <body>
+         <h1 class="header">Calculator</h1>
+         <h1 class="header">Division</h1> 
+        
+       <div class="input"> 
+        <lable class="h3">Number 1</lable>
+        
+        <input  type="number" id="num1">
+        
+        <lable class="h3" style="margin-left: 30px;">Number 2</lable>
+        
+        <input  type="number" id="num2">
+        </div>
+       
+        
+        <br>
+        <div class="button">
+        <button class="button" type="submit" onclick="add()">Devide</button>
+        </div>
+        
+        <h3 class="h3">Output</h3>
+        <div class="input">
+        <input  type="text" id="print">
+        </div>
+        <br>
+        <h1 class="center" style="color: aliceblue">Examples</h1>
+        <table>
+            <tr class="center">
+            <th class="gap">Number1</th>
+            <th class="gap">Number2</th>
+            <th class="gap">Substraction</th>    
+            </tr>
+            
+            <tr class="center">
+            <td>1</td>
+            <td>1</td>
+            <td>1 / 1=1</td>
+            </tr>
+            
+            <tr class="center">
+            <td>6</td>
+            <td>2</td>
+            <td>6 / 2=12</td>
+            </tr>
+            
+            <tr class="center">
+            <td>1</td>
+            <td>3</td>
+            <td>1 / 3=0.333</td>
+            </tr>
+            
+            <tr class="center">
+            <td>50</td>
+            <td>2</td>
+            <td>50 / 2= 25</td>
+            </tr>
+            
+            <tr class="center">
+            <td>25</td>
+            <td>5</td>
+            <td>25 / 5=5</td>
+            </tr>
+        </table>
+        
+    </body>
+    
+
+</html>

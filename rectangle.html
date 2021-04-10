@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Addition</title>
+       <link rel="stylesheet" href="design.css">
+
+               
+<script>
+      function add(){
+          var num11 = parseFloat(document.getElementById('num1').value);
+          var num22 = parseFloat(document.getElementById('num2').value);
+        
+           document.getElementById('print').value = num11*num22;
+         
+          
+     }
+</script>  
+        
+    </head>
+    <body>
+         <h1 class="header">Calculator</h1>
+         <h1 class="header">Area of Rectangle</h1> 
+        
+       <div class="input"> 
+        <lable class="h3">Length</lable>
+        
+        <input  type="number" id="num1">
+        
+        <lable class="h3" style="margin-left: 30px;">Breadth</lable>
+        
+        <input  type="number" id="num2">
+        </div>
+       
+        
+        <br>
+        <div class="button">
+        <button class="button" type="submit" onclick="add()">Area</button>
+        </div>
+        
+        <h3 class="h3">Output</h3>
+        <div class="input">
+        <input  type="text" id="print">
+        </div>
+        <br>
+        <h1 class="center" style="color: aliceblue">Examples</h1>
+        <table>
+            <tr class="center">
+            <th class="gap">Length</th>
+            <th class="gap">Breadth</th>
+            <th class="gap">Area</th>    
+            </tr>
+            
+            <tr class="center">
+            <td>1</td>
+            <td>1</td>
+            <td>1*1=1</td>
+            </tr>
+            
+            <tr class="center">
+            <td>1</td>
+            <td>2</td>
+            <td>1*2=2</td>
+            </tr>
+            
+            <tr class="center">
+            <td>5</td>
+            <td>6</td>
+            <td>5*6=30</td>
+            </tr>
+            
+            <tr class="center">
+            <td>10</td>
+            <td>10</td>
+            <td>10*10=100</td>
+            </tr>
+            
+            <tr class="center">
+            <td>5</td>
+            <td>5</td>
+            <td>5*5=25</td>
+            </tr>
+        </table>
+        
+    </body>
+    
+
+</html>

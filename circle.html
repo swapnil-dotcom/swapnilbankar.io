@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Circle</title>
+       <link rel="stylesheet" href="design.css">
+
+               
+<script>
+      function add(){
+          var num11 = parseFloat(document.getElementById('num1').value);
+          
+          
+           document.getElementById('print').value = num11*num11*3.14;
+         
+          
+     }
+</script>  
+        
+    </head>
+    <body>
+         <h1 class="header">Calculator</h1>
+         <h1 class="header">Area if Circle</h1> 
+        
+       <div class="input"> 
+        <lable class="h3">Radius</lable>
+        
+        <input  type="number" id="num1">
+        
+        
+        </div>
+       
+        
+        <br>
+        <div class="button">
+        <button class="button" type="submit" onclick="add()">Area</button>
+        </div>
+        
+        <h3 class="h3">Output</h3>
+        <div class="input">
+        <input  type="text" id="print">
+        </div>
+        <br>
+        <h1 class="center" style="color: aliceblue">Examples</h1>
+        <table>
+            <tr class="center">
+            <th class="gap">Radius</th>
+            <th class="gap">Area circle</th>    
+            </tr>
+            
+            <tr class="center">
+            <td>2</td>
+            <td>3.14*2*2= 12.56</td>
+            </tr>
+            
+            <tr class="center">
+            <td>3</td>
+            <td>3.14*3*3= 28.26</td>
+            </tr>
+            
+            <tr class="center">
+            <td>15</td>
+            <td>3.14*15*15= 706.5</td>
+            </tr>
+            
+            <tr class="center">
+            <td>10</td>
+            <td>3.14*10*10= 314</td>
+            </tr>
+            
+            <tr class="center">
+            <td>25</td>
+            <td>25 * 25= 1962.5</td>
+            </tr>
+        </table>
+        
+    </body>
+    
+
+</html>

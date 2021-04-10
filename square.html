@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Division</title>
+       <link rel="stylesheet" href="design.css">
+
+               
+<script>
+      function add(){
+          var num11 = parseFloat(document.getElementById('num1').value);
+          
+          
+           document.getElementById('print').value = num11*num11;
+         
+          
+     }
+</script>  
+        
+    </head>
+    <body>
+         <h1 class="header">Calculator</h1>
+         <h1 class="header">Square</h1> 
+        
+       <div class="input"> 
+        <lable class="h3">Number</lable>
+        
+        <input  type="number" id="num1">
+        
+        
+        </div>
+       
+        
+        <br>
+        <div class="button">
+        <button class="button" type="submit" onclick="add()">Square</button>
+        </div>
+        
+        <h3 class="h3">Output</h3>
+        <div class="input">
+        <input  type="text" id="print">
+        </div>
+        <br>
+        <h1 class="center" style="color: aliceblue">Examples</h1>
+        <table>
+            <tr class="center">
+            <th class="gap">Number</th>
+            <th class="gap">Square</th>    
+            </tr>
+            
+            <tr class="center">
+            <td>1</td>
+            <td>1 * 1= 1</td>
+            </tr>
+            
+            <tr class="center">
+            <td>6</td>
+            <td>6 * 6= 36</td>
+            </tr>
+            
+            <tr class="center">
+            <td>15</td>
+            <td>15 * 15= 255</td>
+            </tr>
+            
+            <tr class="center">
+            <td>38</td>
+            <td>38 * 38= 1444</td>
+            </tr>
+            
+            <tr class="center">
+            <td>25</td>
+            <td>25 * 25= 625</td>
+            </tr>
+        </table>
+        
+    </body>
+    
+
+</html>
